@@ -1,0 +1,26 @@
+{
+  "name": "@reagent/logging",
+  "version": "0.1.0",
+  "description": "Standardized application logging with winston",
+  "main": "dist/index.js",
+  "repository": "https://github.com/reagent/logging",
+  "author": "Patrick Reagan <github@the-reagans.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "prettier": {
+    "printWidth": 80,
+    "useTabs": false,
+    "singleQuote": true,
+    "tabWidth": 2
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "typescript": "^4.9.5"
+  }
+}
