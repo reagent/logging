@@ -4,20 +4,10 @@ A [winston][]-based logger with standardized JSON and plaintext formatting.
 
 ## Installation
 
-Create a [personal access token][token] with at least `read:packages`
-permissions and configure NPM:
+Install from NPM:
 
 ```
-cat <<EOF >> .npmrc
-@reagent:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=\${GITHUB_TOKEN}
-EOF
-```
-
-Using your token, install the package:
-
-```
-$ GITHUB_TOKEN=<your token> yarn add @reagent/logging
+$ yarn add @reagent/logging
 ```
 
 ## Usage
@@ -88,5 +78,4 @@ logger.info('Message from application with extra', {
 As in previous examples, emitting the logs as `json` is also possible.
 
 [winston]: https://github.com/winstonjs/winston
-[token]: https://github.com/settings/tokens
 [syslog levels]: https://en.wikipedia.org/wiki/Syslog#Severity_level
